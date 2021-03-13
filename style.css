@@ -306,3 +306,85 @@ header #arrow {
 .flexCards:hover {
     transform: scale(1.05);
 }
+
+
+/* Section Phrases Slide */
+
+#phraseSlide {
+    height: 60rem;
+    width: 100%;
+    border-top: 1px dashed rgb(209,174,59);
+    background: url(./ressources/sectionBg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.cadre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 110rem;
+    height: 40rem;
+    transform: translate(-50%,-50%);
+    border-radius: 2px;
+    background: rgba(55,55,55,0.3);
+    color: white;
+}
+
+.centre {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -2.25rem;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 4.5rem;
+    text-align: center;
+    line-height: 45px;
+}
+
+.carousel .changeHidden {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    height: 13rem;
+    line-height: 13rem;
+    width: 100rem;
+    overflow: hidden;
+}
+
+.carousel .changeHidden .contenant {
+    position: relative;
+    animation: carousel 8s ease-in-out infinite;
+
+}
+
+.carousel .changeHidden .element {
+    font-weight: 700;
+    font-size: 8rem;
+}
+
+@keyframes carousel {
+    0%, 20% {
+        transform: translateY(0);
+    }
+    20%, 45% {
+        transform: translateY(-13rem);
+    }
+    50%, 70% {
+        transform: translateY(-26rem);
+    }
+    75%, 95% {
+        transform: translateY(-39rem);
+    }
+    100% {
+        transform: translateY(-52rem);
+    }
+}
