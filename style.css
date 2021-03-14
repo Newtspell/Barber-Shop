@@ -388,3 +388,96 @@ header #arrow {
         transform: translateY(-52rem);
     }
 }
+
+/* Section Equipe */
+
+#equipe {
+    height: 72rem;
+    width: 100%;
+    background: #f7f7f7;
+    border-top: 1px dashed rgb(209,174,59);
+    padding-bottom: 10rem;
+}
+
+#equipe h3 {
+    text-align: center;
+    font-size: 5.5rem;
+    background-image: linear-gradient(to right, #373737, #c0b283);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 0;
+}
+
+#equipe p {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.containerFlexTeam {
+width: 100%;
+height: 60rem;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.team {
+    height: 50rem;
+    width: 40rem;
+    background: #f7f7f7;
+    margin: 5rem;
+    overflow: hidden;
+}
+
+.sousTxt{
+   width: 100%;
+   height: 20%;
+   text-align: center;
+   position: relative;
+   z-index: 2;
+   background: rgb(211,203,178);
+
+}
+
+.sousTxt h4{
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.teamPic {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+}
+
+.pic1 {
+    background: url("./ressources/barber1.jpg");
+    background-position: 35% 15%;
+}
+
+.pic1:hover{
+    transform: scale(1.2);
+}
+
+.pic2 {
+    background: url("./ressources/barber2.jpg");
+    background-position: 50% 40%;
+}
+
+.pic2:hover{
+    transform: scale(1.2);
+}
+
+.pic3 {
+    background: url("./ressources/barber3.jpg");
+    background-position: center;
+}
+
+.pic3:hover{
+    transform: scale(1.2);
+}
