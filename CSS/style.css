@@ -314,7 +314,7 @@ header #arrow {
     height: 60rem;
     width: 100%;
     border-top: 1px dashed rgb(209,174,59);
-    background: url(./ressources/sectionBg.jpg);
+    background: url(../ressources/sectionBg.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -456,7 +456,7 @@ justify-content: center;
 }
 
 .pic1 {
-    background: url("./ressources/barber1.jpg");
+    background: url("../ressources/barber1.jpg");
     background-position: 35% 15%;
 }
 
@@ -465,7 +465,7 @@ justify-content: center;
 }
 
 .pic2 {
-    background: url("./ressources/barber2.jpg");
+    background: url("../ressources/barber2.jpg");
     background-position: 50% 40%;
 }
 
@@ -474,7 +474,7 @@ justify-content: center;
 }
 
 .pic3 {
-    background: url("./ressources/barber3.jpg");
+    background: url("../ressources/barber3.jpg");
     background-position: center;
 }
 
