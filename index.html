@@ -17,6 +17,13 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/baseMedias.css">
 
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <!-- Greensock -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+
+
 
     <title>Barber</title>
 </head>
@@ -25,15 +32,14 @@
 
     <header id="accueil">
 
+       
         <nav id="navigation">
 
-            <a href="#accueil" class="liensNav">Accueil</a>
-            <a href="#valeurs" class="liensNav">Nos Valeurs</a>
-            <a href="#tarifs" class="liensNav">Nos Tarifs</a>
-            <a href="#contact" class="liensNav">Contact</a>
-            <a class="icon" id="icon"><i class="fas fa-bars"></i> </a>
-
-
+            <a href="#accueil" class="liensNav" onclick="toggleNav()">Accueil</a>
+            <a href="#valeurs" class="liensNav" onclick="toggleNav()">Nos Valeurs</a>
+            <a href="#tarifs" class="liensNav" onclick="toggleNav()">Nos Tarifs</a>
+            <a href="#contact" class="liensNav" onclick="toggleNav()">Contact</a>
+            <a class="icon" id="icon" onclick="toggleNav()"><i class="fas fa-bars"></i></a>
         </nav>
 
 
@@ -242,6 +248,10 @@
         </div>
 
     </section>
+
+
+    <script src="JS/app.js"></script>
+    <script src="JS/greenSock.js"></script>
 
 </body>
 

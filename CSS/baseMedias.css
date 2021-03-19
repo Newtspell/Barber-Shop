@@ -39,6 +39,21 @@
    border-bottom: 2px solid #373737;
 }
 
+#navigation.responsive {
+  height: 38rem;
+}
+
+#navigation.responsive a:not(:nth-child(5)) {
+
+    display: block;
+    text-align: center;
+    background: #F0EAd6;
+    margin: 0;
+    position: relative;
+    top: 4rem;
+    font-size: 3rem;
+}
+
 }
 
 
@@ -410,4 +425,39 @@ header #arrow {
 }
 
   
+}
+
+/* Medias Contact */
+
+@media (max-width:768px) {
+
+  #contact {
+    height: 20rem;
+  }
+  #contact h2 {
+    font-size: 7rem;
+  }
+  #contact h3 {
+    font-size: 3.5rem;
+  }
+
+  .medias {
+    font-size: 7rem;
+    margin: 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+
+  #contact h2 {
+      font-size: 5rem;
+  }
+  #contact h3 {
+      font-size: 3.5rem;
+  }
+  .medias {
+      font-size: 5rem;
+  }
+
+
 }

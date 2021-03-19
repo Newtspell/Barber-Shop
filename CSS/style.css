@@ -20,6 +20,8 @@ body {
     height: 10rem;
     clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 55% 70%, 50% 90%, 45% 70%, 0% 70%);
     transition: all 0.4s ease-in-out;
+    /* anim GS */
+    opacity: 0;
 }
 
 #navigation a {
@@ -58,6 +60,8 @@ h1 {
     top: 30rem;
     font-family: 'Kaushan Script';
     font-size: 11rem;
+    /* Anim GS */
+    opacity: 0;
 }
 
 header h2 {
@@ -69,6 +73,8 @@ header h2 {
     font-family: 'Abril Fatface';
     font-size: 5rem;
     letter-spacing: 0.2rem;
+    /* Anim GS */
+    opacity: 0;
 }
 header #arrow {
 
@@ -87,6 +93,8 @@ header #arrow {
     background: white;
     box-shadow: 0 0 0 0 #fff;
     animation: pulse 1.3s infinite;
+    /* Anim GS */
+    opacity: 0;
 }
 
 @keyframes pulse {
